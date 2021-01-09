@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.laxminarayan.sgpacalculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sgpa"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/sgpa"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Sem1SBActivity" />
+        <activity android:name=".Sem2SBActivity" />
+        <activity android:name=".Sem2Activity" />
+        <activity android:name=".Sem1Activity" />
+        <activity
+            android:theme="@style/DialogAppTheme"
+            android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
